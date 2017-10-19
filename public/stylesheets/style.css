@@ -11,6 +11,18 @@ a {
     padding-top: 1em;
 }
 
+.left {
+    text-align: left;
+}
+
+.f9 {
+    font-size: 9pt;
+}
+
+.f6 {
+    font-size: 6pt;
+}
+
 
 /* .info {
     min-width: 620px;
