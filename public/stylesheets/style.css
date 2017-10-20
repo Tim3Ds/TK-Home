@@ -11,16 +11,33 @@ a {
     padding-top: 1em;
 }
 
-.left {
-    text-align: left;
+.right {
+    text-align: right;
 }
 
-.f9 {
+.fMain {
+    font-size: 15pt;
+}
+
+.fLarge {
+    font-size: 30pt;
+}
+
+.fMedium {
+    font-size: 12pt;
+}
+
+.fSmall {
     font-size: 9pt;
 }
 
-.f6 {
-    font-size: 6pt;
+.row {
+    border-top: solid 1px;
+    margin-top: 1em;
+}
+
+.row .jobs {
+    border: none;
 }
 
 
@@ -28,7 +45,6 @@ a {
     min-width: 620px;
 } */
 
-
-/* .title {
-    
-} */
+.title {
+    background: rgba(128, 128, 128, 0.61);
+}
