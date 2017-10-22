@@ -7,16 +7,16 @@ router.get('/', function(req, res, next) {
         title: 'Resume'
     });
 });
-/* GET home page. */
+/* GET home page. */ 
 router.get('/portfolio', function(req, res, next) {
     res.render('Resume/Portfolio', {
-        title: 'Resume Portfolio'
+        title: 'Portfolio'
     });
 });
 /* GET home page. */
-router.get('/letter', function(req, res, next) {
+router.get('/letters', function(req, res, next) {
     res.render('Resume/Letters', {
-        title: 'Resume Portfolio'
+        title: 'Letters'
     });
 });
 
