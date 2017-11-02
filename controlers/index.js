@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 router.get('/download/:file', function(req, res) {
     console.log('download', req.params.file);
-    var file = './public/downloads/' + req.params.file;
+    var file = '../public/downloads/' + req.params.file;
     console.log(file);
     res.download(file); // Set disposition and send it.
 });
