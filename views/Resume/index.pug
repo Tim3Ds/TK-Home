@@ -2,7 +2,7 @@ extends ../layout
 
 block content
     .container.jumbotron.fMain 
-        a.btn.btn-success(href='/downloads/Timothy Kelly Resume 10-12-17.pdf') PDF Link
+        a.btn.btn-success(href='/downloads/Timothy Kelly Resume 11-05-17.pdf') PDF Link
         .row
             .col-md-5.fLarge Timothy Kelly
             .col-md-3.fMedium 
@@ -24,14 +24,21 @@ block content
                 p Looking for opportunities to learn, develop new skills, and excel while continuing my education. 
                 p Looking for an internship to build on my education, and move into a professional position. 
         .row
+            .col-md-2.title Skills
+            .col-md-10.fMedium
+                | Software Engineer, Computer Hardware, Testing, Teamwork, Networking, MS Office, Costumer Service
+                br 
+                | Languages: HTML, CSS, PHP, JavaScript, Node.js, React, Express, C, C++, C#, ASP.NET, Java, Linux, LAMP
+        .row
             .col-md-2.title Education
-            .col-md-10.info
-                b Weber State University -
-                |  Computer Science
+            .col-md-10.fMedium
+                .col-md-4.fMedium December 2017
+                u.col-md-5.fMedium Weber State University 
+                br
                 ul
-                    li Associates August 2016
-                    li Bachelors December 2017 (expected) 
-                    li 3.22 Cumulative GPA
+                    li
+                        b Bachelors of Computer Science
+                
         .row.work
             .col-md-2.title Work Experience
             .col-md-10.info
@@ -105,9 +112,4 @@ block content
                     .col-md-5.fMedium 
                         u LDS Mission
                     .right.col-md-3.fMedium Alabama
-        .row
-            .col-md-2.title Skills
-            .col-md-10.fMedium
-                | Computer Hardware, Software Engineer, Testing, Teamwork, Networking, Microsoft Office, Costumer Service 
-                br 
-                | Languages: HTML, CSS, PHP, JavaScript, C, C++, C#, ASP.NET, Java 
+        
