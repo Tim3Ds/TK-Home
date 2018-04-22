@@ -1,5 +1,7 @@
 body {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/BackgroundTK-homeConcept2.jpg');
+    background-attachment: fixed;
+    background-size: contain;
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -9,7 +11,7 @@ a {
 }
 
 .jumbotron {
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .container {
